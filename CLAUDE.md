@@ -4,7 +4,7 @@
 
 ## 구조
 
-- `.claude/commands/galpi.md` — 메인 프로토콜 (v0.9.0)
+- `.claude/commands/galpi.md` — 메인 프로토콜 (v0.9.1)
 - `.claude/galpi_data/` — 참조 파일, 측정 데이터, 회고
 - `.claude/reports/galpi_report_template.html` — 리포트 브랜드 템플릿
 - `.claude/scripts/validate_galpi_version.sh` — 버전 일관성 검증
