@@ -1,15 +1,15 @@
 {
-  "name": "galpi-marketplace",
+  "name": "moongstory-marketplace",
   "owner": {
     "name": "moongstory",
     "email": "happymoongi@gmail.com"
   },
   "plugins": [
     {
-      "name": "galpi",
-      "source": "./plugins/galpi",
-      "description": "정답 없는 고민의 갈피를 잡아주는 AI 상담·컨설턴트. /갈피 슬래시 커맨드.",
-      "version": "0.10.0"
+      "name": "moongstory-tools",
+      "source": "./plugins/moongstory-tools",
+      "description": "moongstory의 Claude Code 도구 모음. 현재: 갈피 커맨드 포함.",
+      "version": "0.11.0"
     }
   ]
 }

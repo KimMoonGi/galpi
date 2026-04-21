@@ -1,0 +1,8 @@
+{
+  "name": "moongstory-tools",
+  "version": "0.11.0",
+  "description": "moongstory의 Claude Code 도구 모음. 현재: 갈피 (정답 없는 고민의 갈피를 잡아주는 AI 상담·컨설턴트).",
+  "author": {
+    "name": "moongstory"
+  }
+}

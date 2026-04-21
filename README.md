@@ -1,7 +1,7 @@
 # 갈피 (galpi)
 
 > 정답 없는 고민의 갈피를 잡아주는 AI 상담·컨설턴트.
-> Claude Code 플러그인 · **v0.10.0**
+> Claude Code 플러그인 · **v0.11.0**
 
 진짜 원하는 것을 확인하고, 생각 못한 선택지를 펼치고, 반론을 이겨낸 결론을 만듭니다.
 개인에게는 상담사처럼(이직·관계·인생), 조직에게는 컨설턴트처럼(전략·채용·방향전환).
@@ -35,7 +35,7 @@ bash /tmp/setup-galpi-memory.sh <본인-github-id>
 
 ```
 /plugin marketplace add KimMoonGi/galpi
-/plugin install galpi@galpi-marketplace
+/plugin install moongstory-tools@moongstory-marketplace
 ```
 
 설치 범위: **"Install for you (user scope)"** 선택 (어느 디렉토리에서든 사용 가능)
@@ -49,8 +49,9 @@ bash /tmp/setup-galpi-memory.sh <본인-github-id>
 어느 디렉토리에서든 Claude Code에서:
 
 ```
-/갈피
+/moongstory-tools:galpi
 ```
+(입력창에서 `/galpi`까지만 쳐도 자동완성됩니다.)
 
 고민을 그대로 적어 주세요. 갈피가 진행합니다:
 - **P1**: 의도 확정 + 성공조건·제약 + 도메인 감지
@@ -63,8 +64,8 @@ bash /tmp/setup-galpi-memory.sh <본인-github-id>
 
 **플러그인**:
 ```
-/plugin marketplace update galpi-marketplace
-/plugin update galpi@galpi-marketplace
+/plugin marketplace update moongstory-marketplace
+/plugin update moongstory-tools@moongstory-marketplace
 ```
 
 **본인 축적 데이터**: 갈피 세션(P3.5) 완료 시 `~/.claude/galpi-memory/`에 자동 commit+push.

@@ -29,7 +29,7 @@ bash /tmp/setup-galpi-memory.sh <당신의-github-id>
 
 ```
 /plugin marketplace add KimMoonGi/galpi
-/plugin install galpi@galpi-marketplace
+/plugin install moongstory-tools@moongstory-marketplace
 ```
 
 설치 scope는 **"Install for you (user scope)"** 선택 — 모든 디렉토리에서 `/갈피` 사용 가능.
@@ -60,7 +60,7 @@ git add -A && git commit -m "초기 시드" && git push -u origin main
 그런 다음 Claude Code에서:
 ```
 /plugin marketplace add KimMoonGi/galpi
-/plugin install galpi@galpi-marketplace
+/plugin install moongstory-tools@moongstory-marketplace
 ```
 
 ## 사용
@@ -68,8 +68,9 @@ git add -A && git commit -m "초기 시드" && git push -u origin main
 어느 디렉토리에서든 Claude Code에서:
 
 ```
-/갈피
+/moongstory-tools:galpi
 ```
+(`/galpi`까지만 쳐도 자동완성됩니다.)
 
 고민을 그대로 적으면 갈피 프로토콜이 시작됩니다.
 
@@ -77,8 +78,8 @@ git add -A && git commit -m "초기 시드" && git push -u origin main
 
 **플러그인 (새 버전이 올라왔을 때)**:
 ```
-/plugin marketplace update galpi-marketplace
-/plugin update galpi@galpi-marketplace
+/plugin marketplace update moongstory-marketplace
+/plugin update moongstory-tools@moongstory-marketplace
 ```
 
 **축적 데이터 (자동)**: 갈피 세션이 끝나면(P3.5 완료) 자동으로 `~/.claude/galpi-memory/`에 commit+push. 다른 기기에서 시작할 땐 `git pull`로 최신 상태 받아오세요.
