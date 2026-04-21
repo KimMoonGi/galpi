@@ -21,7 +21,7 @@
 본인의 GitHub ID를 넣어 터미널에서 실행:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/KimMoonGi/galpi/main/plugins/galpi/scripts/setup-galpi-memory.sh \
+curl -fsSL https://raw.githubusercontent.com/KimMoonGi/galpi/main/plugins/moongstory-tools/scripts/setup-galpi-memory.sh \
   -o /tmp/setup-galpi-memory.sh
 bash /tmp/setup-galpi-memory.sh <본인-github-id>
 ```
@@ -106,7 +106,7 @@ bash /tmp/setup-galpi-memory.sh <본인-github-id>
 
 - **[INSTALL.md](INSTALL.md)** — 설치 가이드 (자동·수동·문제 해결)
 - **[CLAUDE.md](CLAUDE.md)** — 유지보수자용 개발 문서
-- **[plugins/galpi/commands/galpi.md](plugins/galpi/commands/galpi.md)** — 갈피 프로토콜 본문 (v0.10.0)
+- **[plugins/moongstory-tools/commands/galpi.md](plugins/moongstory-tools/commands/galpi.md)** — 갈피 프로토콜 본문 (v0.11.0)
 
 ---
 

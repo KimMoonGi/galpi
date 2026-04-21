@@ -14,7 +14,7 @@
 
 ```bash
 # 1. setup 스크립트 다운로드 + 실행 (GitHub ID는 본인 것으로)
-curl -fsSL https://raw.githubusercontent.com/KimMoonGi/galpi/main/plugins/galpi/scripts/setup-galpi-memory.sh \
+curl -fsSL https://raw.githubusercontent.com/KimMoonGi/galpi/main/plugins/moongstory-tools/scripts/setup-galpi-memory.sh \
   -o /tmp/setup-galpi-memory.sh
 bash /tmp/setup-galpi-memory.sh <당신의-github-id>
 ```
@@ -50,7 +50,7 @@ git clone https://github.com/<당신의-github-id>/galpi-memory.git \
 # 3. 시드 템플릿 내려받기
 cd ~/.claude/galpi-memory
 for f in _galpi_state _galpi_retrospectives _galpi_calibration _galpi_measurement_log; do
-  curl -fsSL "https://raw.githubusercontent.com/KimMoonGi/galpi/main/plugins/galpi/memory-template/${f}.md" -o "${f}.md"
+  curl -fsSL "https://raw.githubusercontent.com/KimMoonGi/galpi/main/plugins/moongstory-tools/memory-template/${f}.md" -o "${f}.md"
 done
 
 # 4. 초기 커밋 + push
